@@ -16,7 +16,8 @@
   --link-hover-color: #136ff6;
   --background-color: #fff;
   --overlay-background-color: #eee;
-  --highlight-background-color: #ccc;
+  --highlight-background-colorv1: #ccc;
+  --highlight-background-color: #ff9800;
   --text-color: #000;
 
   /* fonts */
@@ -232,5 +233,5 @@ main .section[data-section-status='initialized'] {
 }
 
 main .section.highlight {
-  background-color: var(--highlight-background-color);
+  background-color: var(--highlight-background-colorv1);
 }
